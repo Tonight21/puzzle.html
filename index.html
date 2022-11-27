@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset ="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<title>YOUTUBE</title>
+<script
+src="https://kit.fontawesome.com/2d323a629b.js"
+crossorigin="anonymous"
+></script>
+<script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Header-->
+<header>
+    <div class="logo">
+        <img src="image/퍼드 복사3.png" alt="" />
+        <span class="title">PUZZLE&DRAGONS</span>
+    </div>
+    <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+</header>
+
+<section class="player">
+    <video controls src="겅호 외전 콜로세움.mp4"></video>
+</section>
+
+ <!-- Video info & Up next -->
+<div class="infoAndUpNext"></div>
+<!-- Video Info -->
+<section class="info">
+    <!-- metadata -->
+    <div class="metadata">
+        <ul class="hashtags">
+            <li>#Puzzle</li>
+            <li>#game</li>
+            <li>#Dungeon</li>
+        </ul>
+        <div class="titleAndButton">
+            <span class="title clamp"
+                >던전 팁
+            </span>
+            <button class="moreBtn">
+                <i class="fas fa-caret-down"></i>
+            </button>
+        </div>
+        <span class="views">1.5만회 1개월 전</span>        
+        </div>
+    
+    <!-- Actions buttons -->
+    <ul class="actions">
+        <li>
+            <button>
+                <button onclick="active()"><img src="image/좋아요 복사.png" alt="" /></i><span>1K</span></button>
+  <script>
+    function active() {   
+      alert("좋아요를 눌렀습니다!");
+    }  
+  </script>
+        </li>
+        <li>
+            <button>
+                <button onclick="doAction2()"><img src="image/싫어요 복사.png" alt="" /></i><span>0</span></button>
+                <script>
+                    function doAction2() {
+                      alert("싫어요를 눌렀습니다!");
+                    }  
+                  </script>
+        </li>
+        <li><button>
+            <img src="image/공유3.png" alt="" /></i><span>Share</span></button>
+        </li>
+        <li><button>
+            <img src="image/저장 복사.png" alt="" /></i><span>Save</span></button>
+        </li>
+        <li>
+            <button>
+                <img src="image/신고 복사.png" alt="" /></i><span>Report</span>
+            </button>
+        </li>
+
+    </ul>
+    <!-- Channel Description -->
+    <div class="channel">
+        <div class="metadata">
+            <img src="image/넵튠 아이콘2.jpg" alt="" />
+            <div class="info">
+                <span class="name">김정현</span>
+                <span class="subscribers">1만 명</span>
+            </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+    </div>
+</section>
+
+<!-- Up Next --> 
+<section class="upNext">
+    <span class="title">Up next</span>
+    <ul>
+        <li class="item">
+            <div class="img"><img src="image/인트로.jpg" alt="" /></div>
+            <div class="itemInfo">
+                <span class="title">발악기란 무엇일까?</span>
+                <span class="name">김정현</span>
+                <span class="views">3만 회</span>
+            <img src="image/넵튠 아이콘2.jpg" alt="" />
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li> 
+        <li class="item">
+        <div class="img"><img src="image/천수 인트로.jpg" alt="" /></div>
+        <div class="itemInfo">
+            <span class="title">멜티는 얼마나 강할까?</span>
+            <span class="name">김정현</span>
+            <span class="views">3만 회</span>
+            <img src="image/넵튠 아이콘2.jpg" alt="" />
+        </div>
+        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+    </li> 
+        <li class="item">
+        <div class="img"><img src="image/이데알 인트로 짤.jpg" alt="" /></div>
+        <div class="itemInfo">
+            <span class="title">스토리란 무엇일까?</span>
+            <span class="name">김정현</span>
+            <span class="views">5만 회</span>
+            <img src="image/넵튠 아이콘2.jpg" alt="" />
+        </div>
+        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+    </li> 
+    </ul>
+</section>
+</div>
+</body>
+</html>
